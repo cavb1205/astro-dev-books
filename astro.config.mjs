@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig, envField } from 'astro/config';
-// @ts-ignore
-import { vercel } from '@astrojs/vercel';
+
+import  vercel  from '@astrojs/vercel/serverless';
 
 import tailwind from '@astrojs/tailwind';
 
